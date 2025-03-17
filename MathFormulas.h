@@ -28,9 +28,6 @@ public:
         printf("\nОстаток при делении числа %d на число %d равен: %d", firstNum, secondNum, firstNum%secondNum);
       }
     void powF() {
-        int bufN=firstNum;
-        for (int i=1; i<secondNum; i++)
-          bufN*=firstNum;
-        printf("\nИтог возведения числа %d в степень %d равен: %d", firstNum, secondNum, bufN);
+        printf("\nИтог возведения числа %d в степень %d равен: %d", firstNum, secondNum, pow(firstNum,secondNum));
       }
 };

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "MathFormulas.h"
 using namespace std;
 
