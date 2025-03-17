@@ -10,4 +10,5 @@ int main() {
     calc.umn();
     calc.del();
     calc.modN();
+    calc.powF();
 }
